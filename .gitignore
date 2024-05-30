@@ -1,0 +1,68 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# CMake build artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.la
+
+# Compiled Dynamic libraries
+*.dll
+*.dylib
+*.so
+
+# Compiled Static libraries
+*.lib
+*.a
+*.lai
+
+# Debug files
+*.idb
+*.pdb
+
+# Generated files
+*.gen.cpp
+*.gen.h
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Directories
+node_modules/
+dist/
+tmp/
+
+# IDE specific files
+*.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python specific files
+__pycache__/
+*.py[cod]
+
+# System specific files
+.DS_Store
+Thumbs.db
+
+# Ignore executable files
+PathfindingAlgorithmVisualiser
+
+# Ignore Docker related files
+docker-compose.override.yml
