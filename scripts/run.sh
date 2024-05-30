@@ -8,7 +8,7 @@ fi
 
 # Navigate to the build directory and run the application
 cd build
-./PathfindingAlgorithmVisualizer
+./Pathfinding_Algorithm_Visualiser
 
 # Navigate back to the root directory
 cd ..

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Set the project name and version
-project(PathfindingAlgorithmVisualizer VERSION 1.0)
+project(Pathfinding_Algorithm_Visualiser VERSION 1.0)
 
 # Specify the C++ standard
 set(CMAKE_CXX_STANDARD 17)
@@ -14,7 +14,7 @@ find_package(SFML 2.5 COMPONENTS system window graphics REQUIRED)
 include_directories(include)
 
 # Add the executable
-add_executable(PathfindingAlgorithmVisualizer
+add_executable(Pathfinding_Algorithm_Visualiser
     src/main.cpp
     src/app/Application.cpp
     src/algorithms/AStar.cpp
@@ -28,4 +28,4 @@ add_executable(PathfindingAlgorithmVisualizer
 )
 
 # Link SFML libraries
-target_link_libraries(PathfindingAlgorithmVisualizer sfml-system sfml-window sfml-graphics)
+target_link_libraries(Pathfinding_Algorithm_Visualiser sfml-system sfml-window sfml-graphics)
